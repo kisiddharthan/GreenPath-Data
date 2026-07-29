@@ -43,4 +43,4 @@ jobs:
       - name: Validate published feed
         run: >
           python validation/validate_feed.py
-          docs/visa-bulletins.json
+          feeds/latest.json

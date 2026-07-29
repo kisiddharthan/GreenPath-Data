@@ -38,4 +38,4 @@ jobs:
       - name: Validate generated feed
         run: |
           python validation/validate_feed.py \
-            output/july-2026-ci.json
+            feeds/latest.json
