@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-29T20:30:00Z",
+  "source": {
+    "publisher": "U.S. Department of State",
+    "bulletinType": "Employment-Based Visa Bulletin",
+    "sourceURL": "https://travel.state.gov/",
+    "retrievedAt": "2026-07-29T20:25:00Z"
+  },
+  "entries": [
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-1",
+      "country": "India",
+      "finalActionDate": "2022-02-15",
+      "filingDate": "2022-04-15"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-2",
+      "country": "India",
+      "finalActionDate": "2013-02-15",
+      "filingDate": "2013-03-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3",
+      "country": "India",
+      "finalActionDate": "2013-05-15",
+      "filingDate": "2013-06-08"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-1",
+      "country": "Rest of World",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-2",
+      "country": "Rest of World",
+      "finalActionDate": "2024-06-15",
+      "filingDate": "2024-08-01"
+    }
+  ]
+}
