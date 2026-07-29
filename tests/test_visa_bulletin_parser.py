@@ -1,28 +1,45 @@
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 import pytest
-
-from parser.generate_feed import generate_feed
 
 
 @pytest.fixture
 def july_2026_feed(tmp_path: Path) -> dict:
     output_file = tmp_path / "july-2026.json"
 
-    generate_feed(
-        url=(
-            "https://travel.state.gov/content/travel/en/legal/"
-            "visa-law0/visa-bulletin/2026/"
-            "visa-bulletin-for-july-2026.html"
-        ),
-        html_file=Path(
-            "tests/fixtures/july-2026-official.html"
-        ),
-        output_file=output_file,
+    result = subprocess.run(
+        [
+            sys.executable,
+            "-m",
+            "parser.generate_feed",
+            "--url",
+            (
+                "https://travel.state.gov/content/travel/en/legal/"
+                "visa-law0/visa-bulletin/2026/"
+                "visa-bulletin-for-july-2026.html"
+            ),
+            "--html-file",
+            "tests/fixtures/july-2026-official.html",
+            "--output",
+            str(output_file),
+        ],
+        capture_output=True,
+        text=True,
+        check=False,
     )
 
-    with output_file.open() as file:
+    assert result.returncode == 0, (
+        "Feed generation failed.\n"
+        f"STDOUT:\n{result.stdout}\n"
+        f"STDERR:\n{result.stderr}"
+    )
+
+    assert output_file.exists()
+
+    with output_file.open(encoding="utf-8") as file:
         return json.load(file)
 
 
