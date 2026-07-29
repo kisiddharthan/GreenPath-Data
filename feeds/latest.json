@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-29T16:06:06Z",
+  "source": {
+    "publisher": "U.S. Department of State",
+    "bulletinType": "Employment-Based Visa Bulletin",
+    "sourceURL": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-july-2026.html",
+    "retrievedAt": "2026-07-29T16:06:06Z"
+  },
+  "entries": [
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-1",
+      "country": "China",
+      "finalActionDate": "2023-06-01",
+      "filingDate": "2023-12-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-1",
+      "country": "India",
+      "finalActionDate": "2022-10-15",
+      "filingDate": "2023-12-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-1",
+      "country": "Mexico",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-1",
+      "country": "Philippines",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-1",
+      "country": "Rest of World",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-2",
+      "country": "China",
+      "finalActionDate": "2021-09-01",
+      "filingDate": "2022-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-2",
+      "country": "India",
+      "finalActionDate": "U",
+      "filingDate": "2015-01-15"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-2",
+      "country": "Mexico",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-2",
+      "country": "Philippines",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-2",
+      "country": "Rest of World",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3",
+      "country": "China",
+      "finalActionDate": "2021-12-22",
+      "filingDate": "2022-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3",
+      "country": "India",
+      "finalActionDate": "2014-01-01",
+      "filingDate": "2015-01-15"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3",
+      "country": "Mexico",
+      "finalActionDate": "2024-08-01",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3",
+      "country": "Philippines",
+      "finalActionDate": "2023-08-01",
+      "filingDate": "2024-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3",
+      "country": "Rest of World",
+      "finalActionDate": "2024-08-01",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3 Other Workers",
+      "country": "China",
+      "finalActionDate": "2019-04-01",
+      "filingDate": "2019-10-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3 Other Workers",
+      "country": "India",
+      "finalActionDate": "2014-01-01",
+      "filingDate": "2015-01-15"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3 Other Workers",
+      "country": "Mexico",
+      "finalActionDate": "2022-03-01",
+      "filingDate": "2022-08-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3 Other Workers",
+      "country": "Philippines",
+      "finalActionDate": "2021-12-01",
+      "filingDate": "2022-08-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-3 Other Workers",
+      "country": "Rest of World",
+      "finalActionDate": "2022-03-01",
+      "filingDate": "2022-08-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4",
+      "country": "China",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4",
+      "country": "India",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4",
+      "country": "Mexico",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4",
+      "country": "Philippines",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4",
+      "country": "Rest of World",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4 Certain Religious Workers",
+      "country": "China",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4 Certain Religious Workers",
+      "country": "India",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4 Certain Religious Workers",
+      "country": "Mexico",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4 Certain Religious Workers",
+      "country": "Philippines",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-4 Certain Religious Workers",
+      "country": "Rest of World",
+      "finalActionDate": "2022-09-15",
+      "filingDate": "2023-01-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 High Unemployment",
+      "country": "China",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 High Unemployment",
+      "country": "India",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 High Unemployment",
+      "country": "Mexico",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 High Unemployment",
+      "country": "Philippines",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 High Unemployment",
+      "country": "Rest of World",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Infrastructure",
+      "country": "China",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Infrastructure",
+      "country": "India",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Infrastructure",
+      "country": "Mexico",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Infrastructure",
+      "country": "Philippines",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Infrastructure",
+      "country": "Rest of World",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Rural",
+      "country": "China",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Rural",
+      "country": "India",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Rural",
+      "country": "Mexico",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Rural",
+      "country": "Philippines",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Rural",
+      "country": "Rest of World",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Unreserved",
+      "country": "China",
+      "finalActionDate": "2016-12-01",
+      "filingDate": "2017-03-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Unreserved",
+      "country": "India",
+      "finalActionDate": "U",
+      "filingDate": "2024-05-01"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Unreserved",
+      "country": "Mexico",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Unreserved",
+      "country": "Philippines",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    },
+    {
+      "bulletinMonth": "2026-07-01",
+      "category": "EB-5 Unreserved",
+      "country": "Rest of World",
+      "finalActionDate": "C",
+      "filingDate": "C"
+    }
+  ]
+}

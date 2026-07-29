@@ -1,0 +1,41 @@
+name: Test GreenPath Data
+
+on:
+  push:
+    branches:
+      - main
+      - feature/**
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest
+
+      - name: Generate July 2026 feed
+        run: |
+          python -m parser.generate_feed \
+            --url "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-july-2026.html" \
+            --html-file "tests/fixtures/july-2026-official.html" \
+            --output "output/july-2026-ci.json"
+
+      - name: Validate generated feed
+        run: |
+          python validation/validate_feed.py \
+            output/july-2026-ci.json
