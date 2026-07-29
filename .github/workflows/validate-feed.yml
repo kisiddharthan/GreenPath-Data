@@ -1,0 +1,46 @@
+name: Validate GreenPath Feed
+
+on:
+  pull_request:
+    paths:
+      - "docs/visa-bulletins.json"
+      - "validation/**"
+      - "tests/**"
+      - ".github/workflows/validate-feed.yml"
+
+  push:
+    branches:
+      - main
+      - "feature/**"
+    paths:
+      - "docs/visa-bulletins.json"
+      - "validation/**"
+      - "tests/**"
+      - ".github/workflows/validate-feed.yml"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate Data Format v1
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run validator unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate published feed
+        run: >
+          python validation/validate_feed.py
+          docs/visa-bulletins.json
