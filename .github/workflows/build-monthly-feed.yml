@@ -1,0 +1,57 @@
+name: Build Monthly Visa Feed
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "feeds/latest.json"
+      - "scripts/**"
+      - ".github/workflows/build-monthly-feed.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: greenpath-monthly-feed
+  cancel-in-progress: false
+
+jobs:
+  build-feed:
+    name: Archive and Build History
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build and validate feed
+        run: python3 scripts/build_monthly_feed.py
+
+      - name: Show generated changes
+        run: git diff -- feeds
+
+      - name: Commit generated feed files
+        shell: bash
+        run: |
+          if git diff --quiet -- feeds/archive feeds/history.json; then
+            echo "No generated feed changes to commit."
+            exit 0
+          fi
+
+          git config user.name "greenpath-feed-bot"
+          git config user.email "greenpath-feed-bot@users.noreply.github.com"
+
+          git add feeds/archive feeds/history.json
+          git commit -m "Archive monthly bulletin and rebuild history"
+          git push
